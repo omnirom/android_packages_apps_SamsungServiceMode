@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.cyanogenmod.samsungservicemode"
+      package="org.omnirom.samsungservicemode"
       android:versionCode="1"
       android:versionName="1.0"
       android:sharedUserId="android.uid.phone">
@@ -118,7 +118,7 @@
             android:process="com.android.phone"
             android:permission="android.permission.WRITE_SECURE_SETTINGS">
             <intent-filter>
-                <action android:name="com.cyanogenmod.SamsungServiceMode.EXECUTE" />
+                <action android:name="org.omnirom.SamsungServiceMode.EXECUTE" />
             </intent-filter>
         </receiver>
     </application>

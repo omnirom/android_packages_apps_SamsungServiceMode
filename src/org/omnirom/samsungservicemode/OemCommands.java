@@ -1,4 +1,4 @@
-package com.cyanogenmod.samsungservicemode;
+package org.omnirom.samsungservicemode;
 
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
